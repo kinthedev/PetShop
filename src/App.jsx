@@ -7,7 +7,6 @@ const App = () => {
 		<div>
 			<Hero />
 			<OurServices />
-			<OurServices />
 
 			<WhereToBuy />
 		</div>
