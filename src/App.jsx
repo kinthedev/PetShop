@@ -14,3 +14,15 @@ const App = () => {
 }
 
 export default App
+// const App = () => {
+// 	return (
+// 		<div>
+// 			<Hero />
+// 			<OurServices />
+// 			<WhereToBuy />
+// 			<WhereToBuy />
+// 		</div>
+// 	)
+// }
+
+// export default App
