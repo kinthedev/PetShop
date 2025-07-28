@@ -11,13 +11,15 @@ const ServicesDate = [
 	},
 	{ id: 2, name: "Toy", img: Image2, des: "Lorem ispsum dolor sit amet" },
 	{ id: 3, name: "Food", img: Image3, des: "Lorem ispsum dolor sit amet" },
+	{ id: 4, name: "Food", img: Image3, des: "Lorem ispsum dolor sit amet" },
+	{ id: 5, name: "Food", img: Image3, des: "Lorem ispsum dolor sit amet" },
 ]
 const OurServices = () => {
 	return (
 		<div className=" px-12 w-full container  py-16">
 			<div className="">
 				<h1 className="text-2xl font-bold text-center py-12">Our Services</h1>
-				<div className="flex flex-wrap  justify-center   space-x-12">
+				<div className="flex flex-wrap  justify-center space-y-12  space-x-12">
 					{ServicesDate.map(({ id, name, des, img }) => (
 						<div key={id}>
 							<img
